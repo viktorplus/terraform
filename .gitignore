@@ -1,0 +1,45 @@
+# Terraform working directory, state, and saved plans
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.tfstate.lock.info
+
+# Local variable values and override files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform crash and debug logs
+crash.log
+crash.*.log
+terraform.log
+
+# AWS credentials and SSH keys
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Local editor and Python environment files
+.idea/
+.vscode/
+.venv/
+__pycache__/
+
+# Keep .terraform.lock.hcl and homework evidence in version control

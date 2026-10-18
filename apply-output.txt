@@ -1,0 +1,4 @@
+aws_s3_bucket.homework: Creating...
+aws_s3_bucket.homework: Creation complete after 1s [id=ptm060326-bucket-viktor]
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
